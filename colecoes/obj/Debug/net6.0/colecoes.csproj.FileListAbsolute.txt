@@ -1,0 +1,15 @@
+D:\programas dot net\colecoes\bin\Debug\net6.0\colecoes.exe
+D:\programas dot net\colecoes\bin\Debug\net6.0\colecoes.deps.json
+D:\programas dot net\colecoes\bin\Debug\net6.0\colecoes.runtimeconfig.json
+D:\programas dot net\colecoes\bin\Debug\net6.0\colecoes.dll
+D:\programas dot net\colecoes\bin\Debug\net6.0\ref\colecoes.dll
+D:\programas dot net\colecoes\bin\Debug\net6.0\colecoes.pdb
+D:\programas dot net\colecoes\obj\Debug\net6.0\colecoes.csproj.AssemblyReference.cache
+D:\programas dot net\colecoes\obj\Debug\net6.0\colecoes.GeneratedMSBuildEditorConfig.editorconfig
+D:\programas dot net\colecoes\obj\Debug\net6.0\colecoes.AssemblyInfoInputs.cache
+D:\programas dot net\colecoes\obj\Debug\net6.0\colecoes.AssemblyInfo.cs
+D:\programas dot net\colecoes\obj\Debug\net6.0\colecoes.csproj.CoreCompileInputs.cache
+D:\programas dot net\colecoes\obj\Debug\net6.0\colecoes.dll
+D:\programas dot net\colecoes\obj\Debug\net6.0\ref\colecoes.dll
+D:\programas dot net\colecoes\obj\Debug\net6.0\colecoes.pdb
+D:\programas dot net\colecoes\obj\Debug\net6.0\colecoes.genruntimeconfig.cache
