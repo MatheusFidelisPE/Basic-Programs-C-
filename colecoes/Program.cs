@@ -1,15 +1,15 @@
 ﻿using System;
-
+using colecoes;
 namespace Colecoes 
 {
     class Program
     {
         static void Main(string[]args)
         {   
-            int tam_array = 10;
-            int tamArrCol = 5, tamArrLin= 5;
-            int[] vetor = new int[tam_array];
-            int[,] array_multi = new int[tamArrLin, tamArrCol];
+            // int tam_array = 10;
+            // int tamArrCol = 5, tamArrLin= 5;
+            // int[] vetor = new int[tam_array];
+            // int[,] array_multi = new int[tamArrLin, tamArrCol];
             // Carregando o array com um laço e imprimindo posteriormente
             // for(int i = 0; i < tam_array; i++){
             //     vetor[i] = i+1;
@@ -22,21 +22,31 @@ namespace Colecoes
             // {
             //     Console.Write($"{item} ");
             // }
-            for(int lin = 0; lin < tamArrLin; lin++)
-            {
-                for(int col = 0; col < tamArrCol; col++)
-                {
-                    array_multi[lin, col] = lin + col;
-                }
-            }
-            for(int lin = 0; lin < tamArrLin; lin++)
-            {
-                for(int col = 0; col < tamArrCol; col++)
-                {
-                    Console.Write($"{array_multi[lin, col]} ");
-                }
-                Console.WriteLine();
-            }
+            // for(int lin = 0; lin < tamArrLin; lin++)
+            // {
+            //     for(int col = 0; col < tamArrCol; col++)
+            //     {
+            //         array_multi[lin, col] = lin + col;
+            //     }
+            // }
+            // for(int lin = 0; lin < tamArrLin; lin++)
+            // {
+            //     for(int col = 0; col < tamArrCol; col++)
+            //     {
+            //         Console.Write($"{array_multi[lin, col]} ");
+            //     }
+            //     Console.WriteLine();
+            // }
+
+            int[] vetor = {20, 32, 15, 2, 45, 53, 90, 67, 34};
+            var bubble = new BubbleSort(vetor);
+
+            bubble.OrdenarBubbleSort();
+
+            bubble.ImprimirArray();
+            
+
+
         }
     }
 }
