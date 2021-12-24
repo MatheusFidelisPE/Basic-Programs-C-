@@ -15,5 +15,9 @@ namespace colecoes
             }
             System.Console.WriteLine();
         }
+        public static string[] ConverterParaArrayString(int[] vetor)
+        {
+            return Array.ConvertAll(vetor, elemento => elemento.ToString());
+        }
     }
 }
