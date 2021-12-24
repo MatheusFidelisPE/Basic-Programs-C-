@@ -72,7 +72,68 @@ namespace Colecoes
             // lista.ForEach(elemento => System.Console.WriteLine(elemento));
             // lista.Remove("Paraiba");
             // lista.ForEach(elemento => System.Console.WriteLine(elemento));
+            // Queue<string> fila = new Queue<string>();
 
+            // fila.Enqueue("PE");
+            // fila.Enqueue("PB");
+            // fila.Enqueue("BA");
+            
+            // while(fila.Count > 0)
+            // {
+            //     System.Console.WriteLine(fila.Dequeue());
+            // }
+            // Stack<string> pilha = new Stack<string>();
+
+            // pilha.Push("PE");
+            // pilha.Push("PB");
+            // pilha.Push("BA");
+
+            // while(pilha.Count() > 0)
+            // {
+            //     System.Console.WriteLine(pilha.Pop());
+            // }
+
+            // Dictionary<string, int> dicionario = new Dictionary<string, int>();
+
+            // dicionario.Add("um", 1);
+            // dicionario.Add("dois", 2);
+            // dicionario.Add("tres", 3);
+            // dicionario.Add("quatro", 4);
+            
+            // string valorProcurado = "um";
+
+
+            // System.Console.WriteLine(dicionario[valorProcurado] + dicionario["dois"]);
+
+            // dicionario["um"] = 10;
+            // System.Console.WriteLine(dicionario[valorProcurado] + dicionario["dois"]);
+            // dicionario.Remove("um");
+
+            // foreach (var item in dicionario)
+            // {
+            //     System.Console.WriteLine(item.Key +" "+ item.Value);
+            // }
+
+            // if(dicionario.TryGetValue("dois", out int algarismoEncontrado))
+            // {
+            //     System.Console.WriteLine(algarismoEncontrado);
+            // }
+            int[] numeros = { 2, 10, 4, 13, 12, 7, 9, 9};
+
+            IEnumerable<int> query = 
+                from n in numeros
+                where n % 2 == 0
+                select n;
+            foreach (var item in query)
+            {
+                System.Console.WriteLine(item);
+            }
+            var query2 = numeros.Where(x => x %2 == 0).OrderBy(x => x).ToList();
+
+            foreach (var item in query2)
+            {
+                System.Console.WriteLine(item);
+            }
         }
     }
 }
