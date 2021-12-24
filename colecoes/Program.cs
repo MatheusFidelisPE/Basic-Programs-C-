@@ -5,7 +5,7 @@ namespace Colecoes
     class Program
     {
         static void Main(string[]args)
-        {   
+        {
             // int tam_array = 10;
             // int tamArrCol = 5, tamArrLin= 5;
             // int[] vetor = new int[tam_array];
@@ -38,29 +38,40 @@ namespace Colecoes
             //     Console.WriteLine();
             // }
 
-            int[] vetor = {20, 32, 15, 2, 45, 53, 90, 67, 34};
+            // int[] vetor = {20, 32, 15, 2, 45, 53, 90, 67, 34};
             // var vetorOrdenar = new BubbleSort(vetor);
 
             // vetorOrdenar.OrdenarBubbleSort();
 
             // vetorOrdenar.ImprimirArray();
-            
+
             // System.Console.WriteLine(string.Join(" ", vetor));
             // BubbleSort.OrdenarBubbleRef(ref vetor);
 
-            int[] vetorDestino = new int[20];
-            Array.Copy(vetor, vetorDestino,vetor.Length);
-            System.Console.WriteLine(string.Join(" ", vetorDestino));
-            int valorBuscado = 15, threshold = 0;
-            System.Console.WriteLine(Array.Exists(vetor,elemento => elemento == valorBuscado));
-            System.Console.WriteLine(Array.TrueForAll(vetor, elemento => elemento > threshold));
-            System.Console.WriteLine(Array.Find(vetor, elemento => elemento == valorBuscado));
-            System.Console.WriteLine($"O elemento {valorBuscado} foi encontrado na posição {Array.FindIndex(vetor, elemento => elemento == valorBuscado)}");
-            Array.Resize(ref vetorDestino, 50);
-            System.Console.WriteLine(string.Join(" ", vetorDestino));
-            
-            var arrayString = OperacoesArrays.ConverterParaArrayString(vetor);
-            System.Console.WriteLine();
+            // int[] vetorDestino = new int[20];
+            // Array.Copy(vetor, vetorDestino,vetor.Length);
+            // System.Console.WriteLine(string.Join(" ", vetorDestino));
+            // int valorBuscado = 15, threshold = 0;
+            // System.Console.WriteLine(Array.Exists(vetor,elemento => elemento == valorBuscado));
+            // System.Console.WriteLine(Array.TrueForAll(vetor, elemento => elemento > threshold));
+            // System.Console.WriteLine(Array.Find(vetor, elemento => elemento == valorBuscado));
+            // System.Console.WriteLine($"O elemento {valorBuscado} foi encontrado na posição {Array.FindIndex(vetor, elemento => elemento == valorBuscado)}");
+            // Array.Resize(ref vetorDestino, 50);
+            // System.Console.WriteLine(string.Join(" ", vetorDestino));
+
+            // var arrayString = OperacoesArrays.ConverterParaArrayString(vetor);
+            // System.Console.WriteLine();
+
+            // List<string> lista = new List<string>();
+
+            // lista.Add("Pernambuco");
+            // lista.Add("Paraiba");
+            // lista.Add("Rio Grande do Norte");
+            // lista.Add("Alagoas");
+            // System.Console.WriteLine($"Quantidade de elementos na lista {lista.Count()}");
+            // lista.ForEach(elemento => System.Console.WriteLine(elemento));
+            // lista.Remove("Paraiba");
+            // lista.ForEach(elemento => System.Console.WriteLine(elemento));
 
         }
     }
